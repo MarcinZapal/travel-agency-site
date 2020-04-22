@@ -1,0 +1,14 @@
+Git:
+* git status
+* git stage -A
+* git commit -m 'comment'
+* git push origin master
+NPM - for paackages
+* npm init -y
+* npm install package
+* npm 
+webpack - to bandle js into one
+* install webpack from npm
+* add to package.json script dev to run webpack
+* create webpack.config.file
+* npm run dev for manual run
