@@ -19,3 +19,6 @@ BEM:
 * Block - independent reusable part of design
 * Element - belong to the block, it can not be ued outside of the Block
 * Modifier - can be used on a block or an elemnt to indicae a change to the default state of an object
+
+//--------
+font-size: 1.rem rem = relative to the root of page <html>
