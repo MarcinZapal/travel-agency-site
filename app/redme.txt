@@ -13,3 +13,9 @@ webpack - to bandle js into one
 * add to package.json script dev to run webpack
 * create webpack.config.file
 * npm run dev for manual run
+
+// -------
+BEM:
+* Block - independent reusable part of design
+* Element - belong to the block, it can not be ued outside of the Block
+* Modifier - can be used on a block or an elemnt to indicae a change to the default state of an object
