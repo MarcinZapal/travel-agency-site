@@ -1,8 +1,9 @@
 const path = require('path')
 const postCSSPlugins=[
-    require('postcss-simple-vars'),
+    require('postcss-import'), //inline imports
+    require('postcss-simple-vars'), // simple vars
     require('postcss-nested'),
-    require('autoprefixer')
+    require('autoprefixer') // align other browsers
     ]
 
 module.exports = { // change file name and dir
