@@ -5,7 +5,7 @@ const postCSSPlugins=[
     require('autoprefixer')
     ]
 
-module.exports = {
+module.exports = { // change file name and dir
     entry: './app/assets/scripts/App.js',
     output: {
         filename: 'bundled.js',
