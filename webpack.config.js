@@ -1,4 +1,9 @@
 const path = require('path')
+const postCSSPlugins=[
+    require('postcss-simple-vars'),
+    require('postcss-nested'),
+    require('autoprefixer')
+    ]
 
 module.exports = {
     entry: './app/assets/scripts/App.js',
@@ -7,5 +12,13 @@ module.exports = {
         path: path.resolve(__dirname, 'app')
     },
     mode: 'development',
-    watch: true
+    watch: true,
+    module:{
+        rules: [
+            {
+                test: /\.css$/i,
+                use: ['style-loader', 'css-loader', {loader: 'postcss-loader', options: {plugins: postCSSPlugins}}]
+            }
+        ]
+    }
 }
