@@ -6,7 +6,8 @@ Git:
 NPM - for paackages
 * npm init -y
 * npm install package
-* npm 
+* npm run dev 
+* npm install css-loader style-loader --save-d
 webpack - to bandle js into one
 * install webpack from npm
 * add to package.json script dev to run webpack
