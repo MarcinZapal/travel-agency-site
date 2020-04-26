@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack",
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,8 @@
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "webpack-dev-server": "^3.10.3"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.6",
