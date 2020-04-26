@@ -1,6 +1,7 @@
 const path = require('path')
 const postCSSPlugins=[
     require('postcss-import'), //inline imports
+    require('postcss-mixins'), // create reusable part of file
     require('postcss-simple-vars'), // simple vars
     require('postcss-nested'),
     require('autoprefixer') // align other browsers

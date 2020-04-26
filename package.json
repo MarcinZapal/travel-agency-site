@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
-
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,7 @@
     "lazysizes": "^5.1.2",
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1",
+    "postcss-mixins": "^6.2.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "webpack-dev-server": "^3.10.3"

@@ -8,6 +8,7 @@ NPM - for paackages
 * npm install package
 * npm install css-loader style-loader --save-dev
 * npm install webpack-dev-server // for css & js updaged auto in browser, reload the browser, view site on different devices connected to save wifi
+* npm install postcss-mixins --save-dev
 * npm run dev
 webpack - to bandle js into one
 * install webpack from npm
